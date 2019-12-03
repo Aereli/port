@@ -1,0 +1,6 @@
+.menu-navbar{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: none;
+}
