@@ -38,8 +38,8 @@ const Layout = ({ children }) => {
         <footer
           style={{
             // width: `100%`,
-            position: `absolute`,
-            width: `100%`,
+            position: `fixed`,
+            width: `100vw`,
             bottom: `1rem`,
             textAlign: `center`,
           }}  
