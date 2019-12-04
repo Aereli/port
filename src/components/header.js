@@ -1,9 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "../styles/header.css"
 
 const Header = ({ siteTitle }) => (
   <header
+    className="header-h1"
     style={{
       marginBottom: `1.45rem`,
     }}

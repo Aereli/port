@@ -9,7 +9,6 @@ import Menu from "../components/menu"
 const IndexPage = () => (
   <Layout>
     {/* <SEO title="Home" /> */}
-    <h1>Hi people</h1>
     <Menu/>
   </Layout>
 )
