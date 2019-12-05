@@ -7,3 +7,13 @@
     font-size: 100%;
   }
 }
+
+.face-image{
+  text-align: center;
+  width: 100vw;
+}
+
+.face-image img{
+  width: 400px;
+  margin: 0;
+}
