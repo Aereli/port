@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import "../styles/header.css"
 
+
 const Header = ({ siteTitle }) => (
   <header
     className="header-h1"

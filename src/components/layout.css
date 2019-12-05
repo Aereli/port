@@ -1,8 +1,19 @@
 
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap');
 
 
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
+}
+
+.face-image{
+  text-align: center;
+  width: 100vw;
+}
+
+.face-image img{
+  width: 400px;
+  margin: 0;
 }
