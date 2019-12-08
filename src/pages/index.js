@@ -3,12 +3,14 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 import Menu from "../components/menu"
+import Header from "../components/header"
 
 const IndexPage = () => (
   <Layout>
-    {/* <SEO title="Home" /> */}
+    <SEO title="Home" />
+    <Header/>
     <Menu/>
     <Image/>
   </Layout>
