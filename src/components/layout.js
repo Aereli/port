@@ -8,8 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
+// import Menu from "./menu"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -22,15 +22,10 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          
-        }}
-      >
+      <div>
         <main  style={{
           width: `100%`,
         }}>{children}</main>
